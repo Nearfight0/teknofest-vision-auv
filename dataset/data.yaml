@@ -1,0 +1,14 @@
+# YOLO dataset config for the shape dataset in this folder.
+# 38 images, 2 classes, labelled in Label Studio (YOLO export).
+#
+# Train with:  yolo detect train data=dataset/data.yaml model=yolov8n.pt epochs=100 imgsz=640
+#
+# Note: train and val point at the same images for now. Before reporting
+# metrics, split off ~20% of the images into a separate validation set.
+path: /full/path/to/teknofest-vision/dataset   # set to this folder's absolute path
+train: images
+val: images
+
+names:
+  0: Circle
+  1: Rectangular

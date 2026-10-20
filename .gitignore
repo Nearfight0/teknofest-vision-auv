@@ -1,0 +1,20 @@
+# Model weights (publish them as a GitHub Release instead)
+*.pt
+*.onnx
+*.engine
+
+# Training / runtime output
+runs/
+auto_labels/
+capture.png
+demo1.avi
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

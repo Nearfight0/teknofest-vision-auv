@@ -1,0 +1,11 @@
+teknofest-vision
+Copyright 2025-2026 Yusif Mirzabayli
+
+This project includes code adapted from Train-and-Deploy-YOLO-Models
+by Evan Juras (EdjeElectronics), licensed under the Apache License 2.0:
+https://github.com/EdjeElectronics/Train-and-Deploy-YOLO-Models
+
+auto_label_steer.py is based on that project's yolo_detect.py. Changes:
+auto-labelling of high-confidence detections (image + YOLO label pairs),
+serial steering output to an Arduino, command-line options for the serial
+port, label folder and thresholds, and restructuring of the main loop.
